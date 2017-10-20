@@ -214,7 +214,7 @@ if __name__ == '__main__':
 
     if rank == root:
         timetotal = time.time()-timeini
-        print(timetotal)
+        #print(timetotal)
         clustering = []
         for i in range(k):
             clustering.insert(i, [])
@@ -226,9 +226,10 @@ if __name__ == '__main__':
             count +=1
 
         #print(clustering)
-        salida = "salidaParalelo.txt"
+        dataset2 = dataSet.replace("./", "").replace("/", "")
+        salida = "salidaParalelo"+dataset2+".txt"
         file = open(salida, "w")
-        file.write("Tiempo total: %d" %(timetotal))
+        file.write("Tiempo total: %f" %(timetotal))
         file.write("\n")
         for i in range(len(clustering)):
             file.write("Cluster %d :" % (i))
