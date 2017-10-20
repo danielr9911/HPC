@@ -215,6 +215,7 @@ if __name__ == '__main__':
 
     if rank == root:
         timetotal = time.time()-timeini
+        print(timetotal)
         clustering = []
         for i in range(k):
             clustering.insert(i, [])

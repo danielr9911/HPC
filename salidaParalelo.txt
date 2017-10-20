@@ -3,8 +3,5 @@ Cluster 0 :
 ["Abraham Lincoln___Lincoln's First Inaugural Address.txt"]
 ----------
 Cluster 1 :
-['Abraham Lincoln___Lincoln Letters.txt']
-----------
-Cluster 2 :
-["Abraham Lincoln___Lincoln's Gettysburg Address, given November 19, 1863.txt"]
+["Abraham Lincoln___Lincoln's Gettysburg Address, given November 19, 1863.txt", 'Abraham Lincoln___Lincoln Letters.txt']
 ----------

@@ -1,7 +1,6 @@
 import operator, os, sys
 import numpy as np
 import time
-from nltk.corpus import stopwords
 
 
 def getTerms(dataSet):
@@ -153,6 +152,7 @@ if __name__ == '__main__':
 
     #Clusters
     timetotal = time.time()-timeini
+    print(timetotal)
     clustering = []
     for i in range(k):
         clustering.insert(i, [])
