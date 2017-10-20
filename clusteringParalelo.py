@@ -227,7 +227,7 @@ if __name__ == '__main__':
 
         #print(clustering)
         dataset2 = dataSet.replace("./", "").replace("/", "")
-        salida = "salidaParalelo"+datset2+"K"+str(k)+".txt"
+        salida = "salidaParalelo"+dataset2+"K"+str(k)+".txt"
         file = open(salida, "w")
         file.write("Tiempo total: %f" %(timetotal))
         file.write("\n")

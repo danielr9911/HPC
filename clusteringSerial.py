@@ -164,8 +164,8 @@ if __name__ == '__main__':
         count +=1
 
     #print(clustering)
-    datset2 = dataSet.replace("./", "").replace("/", "")
-    salida = "salidaSerial"+datset2+"K"+str(k)+".txt"
+    dataset2 = dataSet.replace("./", "").replace("/", "")
+    salida = "salidaSerial"+dataset2+"K"+str(k)+".txt"
     file = open(salida, "w")
     file.write("Tiempo total: %f" %(timetotal))
     file.write("\n")
