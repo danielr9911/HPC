@@ -1,10 +1,10 @@
-## Practica 3
-###Practica 3 - Topicos especiales en telematica - Modulo  3 (HPC)
+# Practica 3
+### Tópicos especiales en telematica - Modulo  3 (HPC)
 
-By: Daniel Rendon Montaño - drendon9@eafit.edu.co
-By: Laura Mejía Vásquez - lmejiav6@eafit.edu.co
+#### By: Daniel Rendon Montaño - drendon9@eafit.edu.co
+#### By: Laura Mejía Vásquez - lmejiav6@eafit.edu.co
 
-# RUN
+## RUN
 
 ### clusteringSerial.py
     
