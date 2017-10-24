@@ -13,3 +13,9 @@
 ### clusteringParalelo.py
     
     mpiexec -np <cores> python clusteringParalelo.py <dataset> <k>
+    
+## BIBLIOTECAS
+Se necesitan las siguientes bibliotecas:
+
+    pip install numpy
+    pip install mpi4py
